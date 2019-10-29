@@ -1,0 +1,304 @@
+@media (max-width: 1130px) {
+.menu-icon{
+    background-color: #fff;
+    display: inline-block;
+    z-index: 2000;
+    float: right;
+    margin-left: 15px;
+}
+
+.nav{
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    flex-flow: column wrap; 
+    align-items: flex-end;
+    margin-top: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1000;
+    padding: 45px 0;
+    padding-top: 140px;
+    height: 100vh;
+}
+
+.nav li{
+    padding: 0 0 25px 0;
+    margin: 0;
+}
+
+.nav li:last-child{
+    padding-bottom: 0;
+} 
+  
+.nav a{
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 600;
+    color: #4d4d4d;
+}
+
+li.current_page_item a {
+    color: #f0dc1b;
+}
+
+.header-cont-logo{
+    order: 0;
+}
+
+.header-cont-contacts{
+    order: 1;
+}
+
+.main-menu{
+    order: 2;
+}
+
+.about-cont{
+  flex-direction: column;
+  align-items: center;
+}
+
+.baner-cont{
+    width: 70%;
+    float: none;
+    text-align: center;
+    margin: 80px auto;
+}
+
+.about-cont-title, .about-cont-btn{
+  text-align: center;
+}
+
+.about-cont-text{
+    margin-right: 0;
+}
+
+.adv-slider-item-inner{
+  flex-direction: column;
+}
+
+.adv-slider .adv-slider-item img{
+    margin-right: 45px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+}
+
+.adv-slider .adv-slider-item p{
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+.adv-slider .prev, .adv-slider .next{
+    top: 36%;
+}
+
+.icons{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.icon__item{
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.icon__item::last-child{
+  margin-right: 0;
+}
+
+.bottom-form-cont-logo{
+    display: none;
+}
+
+.footer-cont{
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-cont-logo, 
+.footer-cont-social, 
+.footer-cont-phones{
+  margin-bottom: 15px;
+}
+
+.articles-slider{
+    padding: 0 20px;
+}
+
+.slider-item-btn{
+  margin-right: 0;
+}
+
+}
+
+@media (max-width: 900px) {
+
+.faq-cont-item{
+    padding: 0 20px;
+}
+
+.condition-cont-item-icon{
+  width: 140px;
+  height: 140px;
+}
+
+}
+
+@media (max-width: 740px) {
+
+.articles-slider .articles-slider-item-thumb img,
+.adv-slider .adv-slider-item img{
+  width: 450px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.baner-cont{
+    width: 90%;
+}
+
+.adv-slider .adv-slider-item p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/*
+.condition-cont{
+  flex-direction: column;
+} */
+
+}
+
+@media (max-width: 598px) {
+
+.condition-cont{
+  flex-direction: column;
+}
+
+.condition-title{
+  margin-bottom: 40px;
+}
+
+.condition-cont-item {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.condition-cont-item-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 20px 0 0;
+}
+
+.condition-cont-item-text{
+  margin: 0;
+}
+
+.condition-cont-item-icon img{
+  height: 40px;
+}
+
+/*.articles-slider .articles-slider-item-thumb{
+  display: none;
+} */
+
+.articles-slider .articles-slider-item-thumb img,
+.adv-slider .adv-slider-item img{
+  width: 350px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.hide{
+  display: none;
+}
+
+.bottom-form-cont-left-fields input[type="text"]{
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+
+.baner-cont-title h1{
+    font-size: 38px;
+}
+
+h2{
+  font-size: 34px;
+}
+
+}
+
+@media (max-width: 460px) {
+  .header-cont-contacts{
+    display: none;
+  }
+
+.articles-slider {
+    padding: 0;
+}
+
+.about-cont-col-2{
+    display: none;
+}
+
+.baner-cont{
+    width: 100%;
+}
+
+.bottom-form-cont-left-pre p,
+.bottom-form-cont-left-after p{
+    font-size: 24px;
+}
+
+.articles-slider .articles-slider-item-thumb img,
+.adv-slider .adv-slider-item img{
+    width: 98%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.faq-cont-item {
+    padding: 0;
+}
+
+}
+
+@media (max-width: 360px) {
+
+.baner-cont-title h1{
+    font-size: 26px;
+}
+
+.baner-cont-btn a,
+.about-cont-btn a, 
+.slider-item-btn a{
+  font-size: 18px;
+}
+
+.baner-cont-subtitle p{
+  font-size: 17px;
+}
+
+.about-cont-text p{
+  font-size: 16px;
+}
+
+.condition-cont-item-icon{
+  display: none;
+}
+
+.condition{
+  height: auto;
+}
+
+.adv-slider .prev, .adv-slider .next,
+.articles-slider .prev, .articles-slider .next{
+  top: 67%;
+}
+
+}
